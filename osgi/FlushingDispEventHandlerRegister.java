@@ -36,7 +36,7 @@ import java.util.stream.Collectors;
     immediate = true,
     configurationPolicy = ConfigurationPolicy.OPTIONAL
     )
-@Designate(ocd = Configuration.class)
+@Designate(ocd = Configuration.class, factory = true)
 public class FlushingDispEventHandlerRegister {
 
     @ObjectClassDefinition(
